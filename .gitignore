@@ -1,0 +1,27 @@
+# Python / Flask
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+instance/
+*.log
+.env
+
+# SQLite/runtime files
+*.db
+*.sqlite
+*.sqlite3
+backend/database/
+backend/static/uploads/
+
+# Vue / Node
+node_modules/
+dist/
+.eslintcache
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
